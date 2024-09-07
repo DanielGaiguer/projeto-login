@@ -21,6 +21,12 @@ section{
     margin-top: 20px;
     padding-bottom: 15px;
     border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 div#imagem{
     height: 200px;
@@ -29,8 +35,10 @@ div#imagem{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    border-radius: 15px 15px 0px 0px;
-
+    display: block;
+}
+div#login{
+    display: block;
 }
 h1{
     margin: 10px;
@@ -51,13 +59,13 @@ label{
 }
 input.dados {
     background-color: #53bab7;
-    height: 35px;
+    height: 30px;
     width: 240px;
     display: inline;
     position: absolute;
-    transform: translate(-45%, -145%);
+    transform: translate(-45%, -160%);
     border-radius: 8px;
-
+    border: 0px;
 }
 input{
     display: block;
@@ -87,5 +95,5 @@ span{
     color: white;
     padding: 5px;
     position: absolute;
-    transform: translate(0%, 12%);
+    transform: translate(0%, 14%);
 }
