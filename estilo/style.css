@@ -27,15 +27,17 @@ section{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 div#imagem{
+    background-image: url(../imagens/pexels-essow-k-251295-2373419.jpg);
     height: 200px;
     width: 300px;
-    background-image: url(../imagens/pexels-essow-k-251295-2373419.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    display: block;
+    
 }
 div#login{
     display: block;
@@ -81,6 +83,7 @@ input#entrar{
     border: 0px;
     border-radius: 10px;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 input#esqsenha{
     background-color: white;
@@ -90,6 +93,7 @@ input#esqsenha{
     padding-bottom: 8px;
     border: 1px 1px #49a09d;
     border-radius: 10px;
+    cursor: pointer;
 }
 span{
     color: white;

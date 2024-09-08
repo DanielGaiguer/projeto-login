@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px)  and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section{
+        width: 615px;
+        margin: 0px;
+        padding: 0px;
+    }
+    div#imagem{
+        background-position: center bottom;
+        float: left ;
+        width: 35%;
+        height: 320px;
+    }
+    div#login{
+        float: right;
+        width: 65%;
+    }
+    label{
+        width: 330px;
+        transform: translate(8%, 10%);
+    }
+    input.dados{
+        width: 280px;
+        transform: translate(-43%, -145%);
+        
+    }
+    span{
+        transform: translate(10%, 15%);
+    }
+    
+}
+@media screen and (min-width: 992px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section{
+        width: 950px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 1.3em;
+    }
+    div#imagem{
+        float: left;
+        width: 40%;
+        height: 400px;
+        
+    }
+    div#login{
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+    label{
+        margin-left: 110px;
+        width: 350px;
+        height: 55px;
+        margin-top: 15px;
+    }
+    input.dados{
+        width: 300px;
+        height: 40px;
+        transform: translate(-45%, -145%);
+    }
+    span{
+        transform: translate(10%, 30%);
+    }
+}
