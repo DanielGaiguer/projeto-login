@@ -8,8 +8,8 @@
 }
 body{
     background-color: #5f2c82;
-    height: 100vh;
-    width: 100vw;
+    height: 95vh;
+    width: 95vw;
 }
 section{
     background-color: white;
@@ -18,7 +18,7 @@ section{
     width: 300px;
     display: block;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 5px;
     padding-bottom: 15px;
     border-radius: 15px;
     overflow: hidden;
@@ -26,13 +26,13 @@ section{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-    transition: width .3s, height .3s;
+    transition: width 0.9s, height 0.9s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 div#imagem{
     background-image: url(../imagens/pexels-essow-k-251295-2373419.jpg);
-    height: 200px;
+    height: 160px;
     width: 300px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,6 +43,8 @@ div#login{
     display: block;
 }
 h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
     margin: 10px;
 }
 p{
@@ -59,15 +61,25 @@ label{
     border-radius: 10px;
     width: 280px;
 }
+span{
+    color: white;
+    padding: 5px;
+    position: absolute;
+    font-variation-settings: 'FILL' 1;
+    transform: translate(0%, 14%);
+}
 input.dados {
-    background-color: #53bab7;
-    height: 30px;
+    background-color: #6ffffa;
+    height: 33px;
     width: 240px;
     display: inline;
     position: absolute;
-    transform: translate(-45%, -160%);
     border-radius: 8px;
     border: 0px;
+     transform: translate(-44.5%, -149%);
+}
+input.dados:focus-within{
+    background-color: white;
 }
 input{
     display: block;
@@ -77,7 +89,8 @@ input#entrar{
     display: block;
     background-color: #49a09d;
     color: white;
-    width: 290px;
+    width: 85%;
+    height: 40px;
     padding-top: 8px;
     padding-bottom: 8px;
     border: 0px;
@@ -85,19 +98,31 @@ input#entrar{
     margin-bottom: 5px;
     cursor: pointer;
 }
-input#esqsenha{
+input#entrar:hover{
+    background-color: #408c89;
+}
+
+a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
     background-color: white;
     color: #49a09d;
-    width: 290px;
+    width: 85%;
+    height: 40px;
     padding-top: 8px;
     padding-bottom: 8px;
-    border: 1px 1px #49a09d;
+    margin: auto;
+    border: 1px solid #49a09d;
     border-radius: 10px;
     cursor: pointer;
+    text-decoration: none;
 }
-span{
-    color: white;
-    padding: 5px;
-    position: absolute;
-    transform: translate(0%, 14%);
+a.botao:hover{
+    background-color: #c1fffd;
+}
+span#mail{
+    color: #49a09d;   
+    font-size: 1.2em;
+    transform: translate(0%, -15%);
 }
