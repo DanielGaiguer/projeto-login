@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px)  and (max-width: 992px){
-    body{
+    main{
         background-image: linear-gradient(to top, #6ffffa, #5f2c82);
     }
     section{
@@ -13,7 +13,7 @@
         background-position: center bottom;
         float: left ;
         width: 35%;
-        height: 320px;
+        height: 335px;
     }
     div#login{
         float: right;
@@ -25,7 +25,7 @@
     }
     input.dados{
         width: 280px;
-        transform: translate(-43%, -145%);
+        transform: translate(-43%, -138%);
         
     }
     span{
@@ -35,7 +35,7 @@
 }
 @media screen and (min-width: 992px){
     
-    body{
+    main{
         background-image: linear-gradient(to top, #6ffffa , #5f2c82);
     }
     section{
